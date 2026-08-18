@@ -128,20 +128,13 @@ nav {
 
 /* Profile Photo */
 
-.hero-image {
-    flex: 0 0 360px;
-
-    display: flex;
-    justify-content: center;
-}
-
 .hero-image img {
-    width: 340px;
-    height: 420px;
+    width: 400px;
+    height: 400px;
 
     object-fit: cover;
 
-    border-radius: 180px 180px 30px 30px;
+    border-radius: 20px;
 
     border: 8px solid #FFFDFC;
 
