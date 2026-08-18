@@ -230,28 +230,60 @@ section > p {
 }
 
 .skill-card {
+    width: 150px;
+    min-height: 130px;
+
     background: #FFFDFC;
 
-    padding: 16px 28px;
+    padding: 25px 15px;
 
-    border-radius: 15px;
+    border-radius: 18px;
 
-    color: #8B5A6B;
-
-    border: 1px solid #E2D2C8;
+    border: 1px solid #E5D8CF;
 
     box-shadow:
-        0 6px 18px rgba(80, 55, 45, 0.07);
+        0 8px 22px rgba(80, 55, 45, 0.08);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     transition: 0.3s;
 }
 
 .skill-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-7px);
 
-    border-color: #A65F52;
+    box-shadow:
+        0 12px 28px rgba(80, 55, 45, 0.13);
 }
 
+.skill-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 12px;
+
+    border-radius: 14px;
+
+    background: #E9DDD2;
+
+    color: #A65F52;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.skill-card h3 {
+    font-size: 17px;
+
+    color: #3F3531;
+}
 
 /* Projects */
 
