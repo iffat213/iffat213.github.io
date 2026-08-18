@@ -299,16 +299,34 @@ section > p {
     margin-top: 35px;
 }
 
+.section-description {
+    margin-bottom: 10px;
+}
+
+.project-container {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+    margin-top: 40px;
+}
+
 .project-card {
+    width: 360px;
+
+    padding: 32px;
+
     background: #FFFDFC;
 
-    width: 330px;
-
-    padding: 30px;
-
-    border-radius: 20px;
-
     border: 1px solid #E5D8CF;
+
+    border-radius: 22px;
+
+    text-align: left;
 
     box-shadow:
         0 8px 25px rgba(80, 55, 45, 0.08);
@@ -317,14 +335,26 @@ section > p {
 }
 
 .project-card:hover {
-    transform: translateY(-7px);
+    transform: translateY(-8px);
 
     box-shadow:
-        0 12px 30px rgba(80, 55, 45, 0.12);
+        0 15px 35px rgba(80, 55, 45, 0.13);
+}
+
+.project-number {
+    font-size: 14px;
+
+    font-weight: bold;
+
+    color: #A65F52;
+
+    margin-bottom: 15px;
 }
 
 .project-card h3 {
-    color: #8B5A6B;
+    font-size: 24px;
+
+    color: #3F3531;
 
     margin-bottom: 15px;
 }
@@ -332,32 +362,54 @@ section > p {
 .project-card p {
     color: #665852;
 
+    line-height: 1.7;
+
     margin-bottom: 20px;
 }
 
-.project-card button {
-    border: none;
+.project-tags {
+    display: flex;
 
-    padding: 10px 20px;
+    flex-wrap: wrap;
 
-    border-radius: 20px;
+    gap: 8px;
+
+    margin-bottom: 25px;
+}
+
+.project-tags span {
+    padding: 6px 12px;
 
     background: #E9DDD2;
 
-    color: #6B4B43;
+    color: #7A554B;
 
-    cursor: pointer;
+    border-radius: 20px;
+
+    font-size: 13px;
+}
+
+.project-button {
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    background: #A65F52;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 20px;
 
     transition: 0.3s;
 }
 
-.project-card button:hover {
-    background: #A65F52;
+.project-button:hover {
+    background: #8B4D43;
 
-    color: white;
+    transform: translateY(-2px);
 }
-
-
 /* Contact */
 
 .social-links {
