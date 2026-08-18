@@ -455,6 +455,39 @@ section > p {
     background: #A65F52;
     color: white;
 }
+
+.contact-info {
+    margin-top: 25px;
+}
+
+.email-address {
+    display: inline-block;
+
+    padding: 12px 22px;
+
+    background: #FFFDFC;
+
+    color: #6B4B43;
+
+    border: 1px solid #D3B9AD;
+
+    border-radius: 25px;
+
+    font-size: 17px;
+
+    box-shadow: 0 5px 15px rgba(80, 55, 45, 0.07);
+}
+
+.contact-buttons {
+    margin-top: 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+}
+
 /* Footer */
 
 footer {
