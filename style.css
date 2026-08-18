@@ -410,37 +410,51 @@ section > p {
 
     transform: translateY(-2px);
 }
-/* Contact */
+/* Contact Section */
 
-.social-links {
+.contact-text {
+    max-width: 650px;
+    margin: 0 auto 30px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
     margin-top: 25px;
 }
 
-.social-links a {
+.contact-button {
     display: inline-block;
 
-    margin: 8px;
+    padding: 12px 25px;
 
-    padding: 10px 20px;
+    background: #A65F52;
+    color: white;
 
     text-decoration: none;
 
-    color: #A65F52;
-
-    border: 1px solid #D3B9AD;
-
-    border-radius: 20px;
+    border-radius: 25px;
 
     transition: 0.3s;
 }
 
-.social-links a:hover {
-    background: #A65F52;
-
-    color: white;
+.contact-button:hover {
+    background: #8B4D43;
+    transform: translateY(-3px);
 }
 
+.contact-button.secondary {
+    background: transparent;
+    color: #A65F52;
+    border: 1px solid #A65F52;
+}
 
+.contact-button.secondary:hover {
+    background: #A65F52;
+    color: white;
+}
 /* Footer */
 
 footer {
